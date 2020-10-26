@@ -1,0 +1,13 @@
+- links:
+  - name: Blog
+    link: /blog/
+  - name: About
+    link: /about/
+  - name: RSS
+    link: /feed.xml
+    new_window: false
+- links:
+  - name: GitHub
+    link: https://github.com/katdl
+    social_icon: GitHub
+    new_window: true
