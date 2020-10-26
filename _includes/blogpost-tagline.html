@@ -1,0 +1,9 @@
+<div class="blogpost-tagline">
+    {% for category in include.post.categories %}
+      <span class="chip">
+        <a href="{{ site.baseurl }}/blog/category/{{ category | slugify }}/">{{ category | capitalize }}</a>
+      </span>
+    {% endfor %}
+    <span class="post-date">{{ include.post.date | date: "%B %d, %Y" }}</span>
+    </div>
+  

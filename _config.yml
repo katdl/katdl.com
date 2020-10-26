@@ -7,7 +7,7 @@ baseurl:
 lang: en-us
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /assets/images/site-icons/jemurai-square.png
+logo: /assets/images/site-icons/katdl-square.png
 description: KAT Data Labs
 author:
   name: Matt Konda
@@ -19,13 +19,10 @@ social:
     - https://github.com/katdl/
     - https://katdl.com/
 
-# Podcast info
-collections:
 # -----
 # Build
 
 timezone: Etc/UTC
-
 paginate: 10
 paginate_path: "/blog/:num/"
 permalink: /:year/:month/:day/:slug/
@@ -51,11 +48,6 @@ defaults:
       path: "index.html"
     values:
       layout: "default"
-  -
-    scope:
-      path: "contact.html"
-    values:
-      full_width: true
 
 plugins:
   - jekyll-sitemap

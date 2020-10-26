@@ -1,0 +1,52 @@
+.blogposts {
+  list-style: none;
+  padding: 0;
+
+  li {
+    margin: 100px 0;
+  }
+}
+
+.blogpost-listing {
+  h3 {
+    margin: 0;
+    color: katdl-color('background', 'contrastHeader');
+    font-weight: 400;
+    font-size: 1.4em;
+
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+
+  p {
+    color: katdl-color('background', 'contrastText');
+    margin: 20px 0;
+
+    a {
+      text-decoration: underline;
+
+      &:hover {
+        font-weight: 400;
+      }
+    }
+  }
+
+  .button {
+    float: right;
+  }
+}
+
+.pagination {
+  text-align: center;
+  font-size: 1.2em;
+  margin: 20px auto;
+
+  .page_number {
+    padding: 0 20px;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}
