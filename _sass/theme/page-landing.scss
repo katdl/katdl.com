@@ -5,7 +5,7 @@
   background-image: linear-gradient(to bottom, katdl-color('primary') 0%, katdl-color('primary', 'light') 50%, katdl-color('primary') 100%);
 
   section {
-    min-height: calc(100vh - 2 * #{$section-padding});
+    min-height: 50px; //calc(100vh - 2 * #{$section-padding});
   }
 
   h1 {
@@ -137,3 +137,5 @@ a.stylized-spio:hover {
   }
 
 }
+img.map-view { max-width: 30%; height: auto; }
+div.list-head { text-align: left;}
