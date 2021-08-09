@@ -11,8 +11,8 @@ logo: /assets/images/site-icons/katdl-square.png
 description: KAT Data Labs
 author:
   name: Matt Konda
-  email: matt.konda@hey.com
-  twitter: 
+  email: mattkonda@gmail.com
+  twitter: @kat_data_labs
 social:
   name: 
   links:
@@ -62,3 +62,4 @@ exclude:
   - LICENCE
 
 social_icons:
+  - twitter: @kat_data_labs

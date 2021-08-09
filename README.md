@@ -17,3 +17,5 @@ To include future-dated posts:
 ```bash
 $ bundle exec jekyll serve --future --watch
 ```
+
+Or use the `docker.sh` script to run the site in Docker.
