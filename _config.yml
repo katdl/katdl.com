@@ -12,7 +12,7 @@ description: KAT Data Labs
 author:
   name: Matt Konda
   email: mattkonda@gmail.com
-  twitter: @kat_data_labs
+  twitter: kat_data_labs
 social:
   name: 
   links:
@@ -62,4 +62,4 @@ exclude:
   - LICENCE
 
 social_icons:
-  - twitter: @kat_data_labs
+  - twitter: kat_data_labs

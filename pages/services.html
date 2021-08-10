@@ -9,10 +9,9 @@ permalink: /services/
   <section>
     <div class="text-container">
       <h1>KAT Data Labs</h1>
-      <h1>Applied data science.</h1>
-      <p class="subtext">We use awesome technology to make data science work.</p>          
+      <h1>Services</h1>
+      <p class="subtext">An overview of services we provide.</p>          
     </div>
-    <img class="map-view" src="/assets/images/site-icons/katdl-mindmap.png" />
   </section>
 </div>
 
@@ -21,17 +20,31 @@ permalink: /services/
     <section>
     <div class="container flex">
       <div class="text">
-        <h2>Seamless <strong>collaboration</strong> with 
-          <strong>doctors</strong>, <strong>scientists</strong>
-          and <strong>academics</strong>.</h2>
-        <p>Even though we live in code and data, we have backgrounds
-          in science and academics.  We love working with 
-          subject experts on hard problems.  See our blog for some
-          simple case studies and stories from our projects.
+        <h2>Data Science Strategy</h2>
+        <p>A strategic analysis project to identify data and processes
+          where data science could have an impact, and produce a list
+          of ranked POC options.          
         </p>
-        <p>We are also entrepreneurs who know that getting the job
-          done and done right is essential for mutual success and
-          ultimately: <strong>progress</strong>.
+      </div>
+      <div class="text">
+        <h2>Proof of Concept</h2>
+        <p>We work with your organization
+          to build one of those proof of concepts.  This is a hands
+          on project with material deliverables.
+       </p>
+      </div>
+      <div class="text">
+        <h2>Build and Train Team</h2>
+        <p>Once we have a system running and doing what we want, we
+          want to help you operationalize it with your own team. 
+        </p>
+       </p>
+      </div>
+      <div class="text">
+        <h2>Long Term Support</h2>
+        <p>As needed, customers can engage us to support the solutions
+          we deliver.
+        </p>
        </p>
       </div>
       <div class="image">
@@ -42,23 +55,8 @@ permalink: /services/
 
   <section>
     <div class="container flex">
-      <div class="text">
-        <h2>Recent Blog Posts</h2>    
-          <ul class="entries">
-            {% for post in site.posts limit:5 %}
-            <li>
-              <a href="{{ post.url }}">{{ post.title }}</a>
-              {{ post.excerpt }}
-            </li>
-            {% endfor %}
-          </ul>
-        </div>
-      </div>
-  </section>
-  <section>
-    <div class="container flex">
         <div class="text">
-          <h2>Coding</h2>
+          <h2>Custom Coding</h2>
           <p>We are expert software developers and have run large scale software
              projects deployed in different cloud and on premise environments.  We 
              have evaluated security and architecture for dozens of well known
@@ -93,4 +91,20 @@ permalink: /services/
     <div class="button alt"><a href="https://calendly.com/mattkonda">Schedule an Introduction</a></div>
   </section>
   
+  <section>
+    <div class="container flex">
+      <div class="text">
+        <h2>Recent Blog Posts</h2>    
+          <ul class="entries">
+            {% for post in site.posts limit:5 %}
+            <li>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+              {{ post.excerpt }}
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+  </section>
+
 </div>
