@@ -1,0 +1,13 @@
+{{/*
+  Calendly button shortcode
+  Usage: calendly-button "username" "Button Text"
+*/}}
+
+{{ $username := .Get 0 | default "mattkonda" }}
+{{ $text := .Get 1 | default "Schedule an Introduction" }}
+
+<div class="calendly-button">
+  <a href="https://calendly.com/{{ $username }}" target="_blank" rel="noopener" class="button">
+    {{ $text }}
+  </a>
+</div>

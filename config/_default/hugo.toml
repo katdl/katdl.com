@@ -1,0 +1,35 @@
+baseURL = "https://katdl.com/"
+languageCode = "en-us"
+title = "KAT Data Labs"
+
+# Theme is loaded via module.toml
+
+# Permalink structure (matching existing URLs)
+[permalinks]
+  blog = "/:year/:month/:day/:slug/"
+  portfolio = "/portfolio/:slug/"
+
+# Taxonomies
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  author = "authors"
+
+# Output formats
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+
+# RSS configuration (maintain /feed.xml URL)
+[outputFormats.RSS]
+  mediaType = "application/rss+xml"
+  baseName = "feed"
+
+# Build settings
+[build]
+  writeStats = true
+
+# Minification
+[minify]
+  disableXML = true

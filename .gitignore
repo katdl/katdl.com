@@ -1,12 +1,21 @@
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
+# Hugo build output
+public/
+resources/_gen/
 
+# Hugo cache
+.hugo_build.lock
+
+# OS files
 .DS_Store
 *.log
-*.zip
-*.docx
 
+# IDE
 .idea
 .vscode
+
+# Dependencies
+node_modules/
+
+# Misc
+*.zip
+*.docx

@@ -1,0 +1,42 @@
+# Main navigation menu
+
+[[main]]
+  name = "Services"
+  pageRef = "services"
+  weight = 10
+
+[[main]]
+  name = "Portfolio"
+  pageRef = "portfolio"
+  weight = 20
+
+[[main]]
+  name = "Blog"
+  pageRef = "blog"
+  weight = 30
+
+[[main]]
+  name = "About"
+  pageRef = "about"
+  weight = 40
+
+[[main]]
+  name = "Contact"
+  pageRef = "contact"
+  weight = 50
+
+# Footer menu (optional)
+[[footer]]
+  name = "Blog"
+  pageRef = "blog"
+  weight = 10
+
+[[footer]]
+  name = "About"
+  pageRef = "about"
+  weight = 20
+
+[[footer]]
+  name = "RSS"
+  url = "/feed.xml"
+  weight = 30

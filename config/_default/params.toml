@@ -1,0 +1,50 @@
+# Site parameters for KAT Data Labs
+
+# Appearance
+colorScheme = "congo"
+defaultAppearance = "light"
+autoSwitchAppearance = true
+
+# Site description and metadata
+description = "KAT Data Labs - Applied data science for medicine, robotics, and automation"
+author = "Matt Konda"
+
+# Header settings
+[header]
+  logo = "/images/site-icons/katdl-logo-square.png"
+
+# Favicon
+# favicon = "/favicon.png"
+
+# Social links
+[social]
+  twitter = "kat_data_labs"
+  github = "katdl"
+  email = "mattkonda@gmail.com"
+
+# Homepage settings
+[homepage]
+  layout = "custom"
+  showRecent = true
+  recentLimit = 5
+
+# Article settings
+[article]
+  showDate = true
+  showAuthor = true
+  showReadingTime = true
+  showTableOfContents = true
+  showTaxonomies = true
+  showWordCount = false
+  sharingLinks = ["twitter", "linkedin", "email"]
+
+# List page settings
+[list]
+  showTableOfContents = false
+  showSummary = true
+  showCards = true
+  groupByYear = true
+
+# Taxonomy settings
+[taxonomy]
+  showTermCount = true
