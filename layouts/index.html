@@ -1,0 +1,29 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="container">
+    <h1>{{ .Site.Title }}</h1>
+    <p class="tagline">Applied data science for medicine, robotics, and automation</p>
+  </div>
+</section>
+<div class="container">
+  <div class="content">
+    {{ .Content }}
+  </div>
+
+  <section class="recent-posts">
+    <h2>Recent Blog Posts</h2>
+    <div class="posts-list">
+      {{ range first 3 (where .Site.RegularPages "Section" "blog") }}
+      <article class="post-card">
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <div class="meta">
+          <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+        </div>
+        {{ with .Summary }}<p>{{ . }}</p>{{ end }}
+      </article>
+      {{ end }}
+    </div>
+    <a href="/blog/" class="btn">View All Posts</a>
+  </section>
+</div>
+{{ end }}
