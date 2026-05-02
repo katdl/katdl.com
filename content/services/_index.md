@@ -33,6 +33,6 @@ As needed, we provide ongoing support — model monitoring, performance tuning, 
 
 Work with a firm that combines AI expertise with a deep understanding of health sciences. We communicate clearly about plans, priorities, milestones, and costs — so you can focus on the science.
 
-{{< button href="https://calendly.com/mattkonda" target="_blank" >}}
+{{< button href="https://calendar.app.google/Ff3B5fZpZMLAjqZTA" target="_blank" >}}
 Schedule an Introduction
 {{< /button >}}

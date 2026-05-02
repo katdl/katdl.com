@@ -25,6 +25,6 @@ We believe in building in the open. Our [projects](/portfolio/) contribute tools
 
 ## Ready to explore what AI can do for your organization?
 
-{{< button href="https://calendly.com/mattkonda" target="_blank" >}}
+{{< button href="https://calendar.app.google/Ff3B5fZpZMLAjqZTA" target="_blank" >}}
 Schedule an Introduction
 {{< /button >}}

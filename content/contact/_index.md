@@ -15,7 +15,7 @@ Let's discuss how AI and software engineering can help your organization.
 
 ## Prefer to schedule a call directly?
 
-{{< button href="https://calendly.com/mattkonda" target="_blank" >}}
+{{< button href="https://calendar.app.google/Ff3B5fZpZMLAjqZTA" target="_blank" >}}
 Schedule on Calendly
 {{< /button >}}
 
@@ -23,6 +23,6 @@ Schedule on Calendly
 
 ## Other ways to reach us
 
-- **Email:** [mattkonda@gmail.com](mailto:mattkonda@gmail.com)
+- **Email:** [info@katdl.com](mailto:info@katdl.com)
 - **GitHub:** [github.com/katdl](https://github.com/katdl)
 - **Twitter:** [@kat_data_labs](https://twitter.com/kat_data_labs)

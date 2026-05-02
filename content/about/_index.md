@@ -19,8 +19,8 @@ We have backgrounds in science and academics, combined with deep experience buil
 
 ## Let's explore how AI can accelerate your work
 
-Email Matt to get started: [mattkonda@gmail.com](mailto:mattkonda@gmail.com)
+Email us to get started: [info@katdl.com](mailto:info@katdl.com)
 
-{{< button href="https://calendly.com/mattkonda" target="_blank" >}}
+{{< button href="https://calendar.app.google/Ff3B5fZpZMLAjqZTA" target="_blank" >}}
 Schedule a Discussion
 {{< /button >}}
