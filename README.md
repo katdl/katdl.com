@@ -1,21 +1,25 @@
-# KAT Data Labs
+# KATDL
 
-## Develop
+AI consulting and software engineering for health sciences. Built with [Hugo](https://gohugo.io/).
 
-```bash
-$ bundle install
-```
+## Development
 
-Run `jekyll` commands through Bundler to ensure you're using the right versions:
+Prerequisites: [Hugo Extended](https://gohugo.io/installation/) (v0.145.0+)
 
 ```bash
-$ bundle exec jekyll serve
+hugo server
 ```
 
-To include future-dated posts:
+The site will be available at `http://localhost:1313/` with live reload.
+
+## Build
 
 ```bash
-$ bundle exec jekyll serve --future --watch
+hugo --gc --minify
 ```
 
-Or use the `docker.sh` script to run the site in Docker.
+Output goes to `./public/`.
+
+## Deployment
+
+Pushes to `main` trigger a GitHub Actions workflow that builds and deploys to GitHub Pages at [katdl.com](https://katdl.com).
