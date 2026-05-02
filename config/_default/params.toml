@@ -1,12 +1,10 @@
-# Site parameters for KAT Data Labs
+# Site parameters for KATDL
 
 # Appearance
-colorScheme = "congo"
-defaultAppearance = "light"
-autoSwitchAppearance = true
+defaultAppearance = "dark"
 
 # Site description and metadata
-description = "KAT Data Labs - Applied data science for medicine, robotics, and automation"
+description = "KATDL — AI consulting and software engineering for health sciences"
 author = "Matt Konda"
 
 # Header settings

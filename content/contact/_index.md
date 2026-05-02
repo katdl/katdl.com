@@ -1,10 +1,10 @@
 ---
 title: "Contact"
-description: "Get in touch with KAT Data Labs"
+description: "Get in touch with KATDL"
 ---
 
 {{< lead >}}
-Let's discuss how we can help with your data science and software development needs.
+Let's discuss how AI and software engineering can help your organization.
 {{< /lead >}}
 
 ## Send us a message

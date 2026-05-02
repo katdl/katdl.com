@@ -1,6 +1,6 @@
 baseURL = "https://katdl.com/"
 languageCode = "en-us"
-title = "KAT Data Labs"
+title = "KATDL"
 
 # Theme is loaded via module.toml
 

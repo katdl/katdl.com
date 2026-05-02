@@ -8,17 +8,17 @@
     {{ .Content }}
   </div>
   {{ if .Pages }}
-  <div class="posts-list">
+  <div class="card-grid posts-list">
     {{ range .Pages }}
-    <article class="post-card">
-      <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    <article class="card post-card">
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
       {{ if .Date }}
       <div class="meta">
         <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
       </div>
       {{ end }}
       {{ with .Summary }}<p>{{ . }}</p>{{ end }}
-      <a href="{{ .RelPermalink }}" class="read-more">Read more</a>
+      <a href="{{ .RelPermalink }}" class="read-more">Read more &rarr;</a>
     </article>
     {{ end }}
   </div>

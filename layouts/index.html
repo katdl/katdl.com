@@ -1,29 +1,84 @@
 {{ define "main" }}
+{{/* ─── Hero ─── */}}
 <section class="hero">
   <div class="container">
-    <h1>{{ .Site.Title }}</h1>
-    <p class="tagline">Applied data science for medicine, robotics, and automation</p>
+    <h1>AI-Powered Solutions for<br><span class="gradient-text">Health Sciences</span></h1>
+    <p class="tagline">We partner with researchers, clinicians, and health organizations to build intelligent systems that advance patient care.</p>
+    <div class="hero-cta">
+      <a href="/contact/" class="btn btn-primary">Start a Conversation</a>
+      <a href="/portfolio/" class="btn btn-outline">View Our Work</a>
+    </div>
   </div>
 </section>
-<div class="container">
-  <div class="content">
-    {{ .Content }}
-  </div>
 
-  <section class="recent-posts">
-    <h2>Recent Blog Posts</h2>
-    <div class="posts-list">
+{{/* ─── Capabilities ─── */}}
+<section class="capabilities">
+  <div class="container">
+    <h2 class="section-title">What We Do</h2>
+    <div class="card-grid">
+      <div class="card">
+        <span class="card-icon">&#x2726;</span>
+        <h3>AI Consulting</h3>
+        <p>Strategy, implementation, and integration of AI and machine learning for health sciences organizations — from computer vision to predictive analytics.</p>
+      </div>
+      <div class="card">
+        <span class="card-icon">&#x2699;</span>
+        <h3>Software Engineering</h3>
+        <p>Production-grade systems built with security, scalability, and clinical rigor. Cloud, on-premise, and hybrid — we've built and secured it all.</p>
+      </div>
+      <div class="card">
+        <span class="card-icon">&#x27A1;</span>
+        <h3>Open Source</h3>
+        <p>We build in the open. Our tools and frameworks advance health sciences technology for everyone, with the same engineering standards we bring to client work.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{/* ─── Featured Project ─── */}}
+{{ $projects := where .Site.RegularPages "Section" "portfolio" }}
+{{ with (index $projects 0) }}
+<section class="featured-project">
+  <div class="container">
+    <h2 class="section-title">Featured Project</h2>
+    <div class="card-grid">
+      <div class="card" style="grid-column: 1 / -1;">
+        <h3><a href="{{ .RelPermalink }}" style="color: var(--color-text-bright); text-decoration: none;">{{ .Title }}</a></h3>
+        {{ with .Summary }}<p>{{ . }}</p>{{ end }}
+        <a href="{{ .RelPermalink }}" class="read-more">Learn more &rarr;</a>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{/* ─── Recent Blog Posts ─── */}}
+<section class="recent-posts">
+  <div class="container">
+    <h2 class="section-title">Latest Insights</h2>
+    <div class="card-grid">
       {{ range first 3 (where .Site.RegularPages "Section" "blog") }}
-      <article class="post-card">
-        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      <article class="card post-card">
         <div class="meta">
           <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
         </div>
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
         {{ with .Summary }}<p>{{ . }}</p>{{ end }}
+        <a href="{{ .RelPermalink }}" class="read-more">Read more &rarr;</a>
       </article>
       {{ end }}
     </div>
-    <a href="/blog/" class="btn">View All Posts</a>
-  </section>
-</div>
+    <div class="recent-posts-footer">
+      <a href="/blog/" class="btn btn-outline">View All Posts</a>
+    </div>
+  </div>
+</section>
+
+{{/* ─── CTA ─── */}}
+<section class="cta-section">
+  <div class="container">
+    <h2>Ready to explore what AI can do for your organization?</h2>
+    <a href="/contact/" class="btn btn-primary">Get in Touch</a>
+  </div>
+</section>
 {{ end }}

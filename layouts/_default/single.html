@@ -1,12 +1,21 @@
 {{ define "main" }}
 <article class="container">
+  <nav class="breadcrumb">
+    <a href="/">Home</a>
+    <span class="separator">/</span>
+    {{ with .Section }}
+    <a href="/{{ . }}/">{{ . | title }}</a>
+    <span class="separator">/</span>
+    {{ end }}
+    <span>{{ .Title }}</span>
+  </nav>
   <header class="page-header">
     <h1>{{ .Title }}</h1>
     {{ if .Date }}
     <div class="meta">
       <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
       {{ with .Params.authors }}
-        <span class="author">by {{ delimit . ", " }}</span>
+        <span class="author"> &middot; {{ delimit . ", " }}</span>
       {{ end }}
     </div>
     {{ end }}
@@ -20,6 +29,9 @@
       <span class="tag">{{ . }}</span>
     {{ end }}
   </div>
+  {{ end }}
+  {{ with .Section }}
+  <a href="/{{ . }}/" class="back-link">&larr; Back to {{ . | title }}</a>
   {{ end }}
 </article>
 {{ end }}

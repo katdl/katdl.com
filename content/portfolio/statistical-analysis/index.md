@@ -1,13 +1,13 @@
 ---
 title: "Inter-Rater Agreement Analysis"
 date: 2021-10-31
-summary: "Statistical analysis of diagnostic agreement among physicians using Fleiss' kappa"
+summary: "Statistical validation of AI-assisted diagnostic models using inter-rater agreement analysis"
 tags:
   - stats
   - medical
   - r
 categories:
-  - Data Science
+  - AI & Machine Learning
 weight: 3
 ---
 

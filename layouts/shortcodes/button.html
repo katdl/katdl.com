@@ -1,5 +1,6 @@
 {{ $href := .Get "href" }}
 {{ $target := .Get "target" | default "_self" }}
-<a href="{{ $href }}" target="{{ $target }}" rel="noopener" class="btn">
+{{ $class := .Get "class" | default "btn" }}
+<a href="{{ $href }}" target="{{ $target }}" rel="noopener" class="{{ $class }}">
   {{ .Inner }}
 </a>

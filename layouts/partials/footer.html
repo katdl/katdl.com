@@ -1,10 +1,14 @@
 <footer class="site-footer">
   <div class="container">
     <div class="footer-content">
+      <div>
+        <div class="footer-brand">KATDL</div>
+        <p class="footer-tagline">AI consulting for health sciences</p>
+      </div>
       <div class="footer-links">
-        <a href="/blog/">Blog</a>
-        <a href="/about/">About</a>
-        <a href="/feed.xml">RSS</a>
+        {{ range .Site.Menus.footer }}
+        <a href="{{ .URL }}">{{ .Name }}</a>
+        {{ end }}
       </div>
       <div class="footer-social">
         <a href="https://github.com/katdl" target="_blank" rel="noopener">GitHub</a>

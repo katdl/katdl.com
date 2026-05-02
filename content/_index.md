@@ -1,33 +1,29 @@
 ---
-title: "KAT Data Labs"
-description: "Applied data science for medicine, robotics, and automation"
+title: "KATDL"
+description: "AI consulting and software engineering for health sciences"
 ---
 
 {{< lead >}}
-We use awesome technology to make data science work.
+We partner with researchers, clinicians, and health organizations to build intelligent systems that advance patient care.
 {{< /lead >}}
 
-## Seamless collaboration with doctors, scientists, and academics
+## AI Consulting
 
-Even though we live in code and data, we have backgrounds in science and academics. We love working with subject experts on hard problems. See our [blog](/blog/) for some simple case studies and stories from our projects.
+We help health sciences organizations identify high-impact opportunities for AI and machine learning — then we build the solutions. From computer vision for medical imaging to predictive models for clinical workflows, we bring deep technical expertise paired with a genuine understanding of science and medicine.
 
-We are also entrepreneurs who know that getting the job done and done right is essential for mutual success and ultimately: **progress**.
+## Software Engineering
+
+We are experienced software engineers who have built and secured large-scale systems across cloud and on-premise environments. We bring production rigor, security awareness, and clear communication to every engagement — so you always know where things stand.
 
 ![EsophaGuide Screenshot](/images/esophaguide.png)
 
-## Coding Excellence
+## Open Source
 
-We are expert software developers and have run large scale software projects deployed in different cloud and on premise environments. We have evaluated security and architecture for dozens of well known cloud forward internet companies, so we can help select technology and build an awesome solution.
-
-We also have experience communicating about plans and priorities so that you always know about milestones, deadlines, costs and dates. We make sure to communicate what is going on so you can focus on the subject matter.
-
-![Code Screenshot](/images/flipcode.png)
+We believe in building in the open. Our [projects](/portfolio/) contribute tools and frameworks that advance health sciences technology for everyone. We bring the same engineering standards to our open source work that we bring to our consulting engagements.
 
 ---
 
-## Get the most out of your data
-
-Work with a firm with a background in science, with strong communication and collaboration skills, and realize your fullest potential and impact!
+## Ready to explore what AI can do for your organization?
 
 {{< button href="https://calendly.com/mattkonda" target="_blank" >}}
 Schedule an Introduction

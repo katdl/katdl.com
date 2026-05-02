@@ -1,21 +1,23 @@
 ---
-title: "About KAT Data Labs"
-description: "About KAT Data Labs - Applied data science company"
+title: "About KATDL"
+description: "About KATDL — AI consulting firm for health sciences"
 ---
 
 {{< lead >}}
 Founded in 2020. Based in Dallas, TX.
 {{< /lead >}}
 
-Run by software and security experts with an interest in science.
+Run by engineers and scientists who build AI-powered solutions for health sciences.
 
 ## Our Mission
 
-KAT Data Labs (KATDL) is a software development and data analysis company building tools on the cutting edge of medicine, robotics, and automation.
+KATDL is an AI consulting and software engineering firm building intelligent systems at the intersection of technology and health sciences.
 
-We partner with doctors, scientists, and academics to solve complex problems using data science, computer vision, and custom software development.
+We partner with doctors, scientists, researchers, and health organizations to solve complex problems using artificial intelligence, machine learning, computer vision, and custom software engineering.
 
-## Let's have a conversation about data and science!
+We have backgrounds in science and academics, combined with deep experience building and securing large-scale software systems. We know how to communicate about technical work clearly — and how to deliver.
+
+## Let's explore how AI can accelerate your work
 
 Email Matt to get started: [mattkonda@gmail.com](mailto:mattkonda@gmail.com)
 

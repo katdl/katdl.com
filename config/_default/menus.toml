@@ -6,7 +6,7 @@
   weight = 10
 
 [[main]]
-  name = "Portfolio"
+  name = "Projects"
   pageRef = "portfolio"
   weight = 20
 
@@ -25,18 +25,28 @@
   pageRef = "contact"
   weight = 50
 
-# Footer menu (optional)
+# Footer menu
+[[footer]]
+  name = "Services"
+  pageRef = "services"
+  weight = 10
+
+[[footer]]
+  name = "Projects"
+  pageRef = "portfolio"
+  weight = 20
+
 [[footer]]
   name = "Blog"
   pageRef = "blog"
-  weight = 10
+  weight = 30
 
 [[footer]]
   name = "About"
   pageRef = "about"
-  weight = 20
+  weight = 40
 
 [[footer]]
   name = "RSS"
   url = "/feed.xml"
-  weight = 30
+  weight = 50

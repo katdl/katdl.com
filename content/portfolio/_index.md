@@ -1,8 +1,8 @@
 ---
-title: "Portfolio"
-description: "Case studies and projects from KAT Data Labs"
+title: "Projects"
+description: "Open source projects and case studies from KATDL"
 ---
 
 {{< lead >}}
-Explore our work in medical technology, data science, and software development.
+Explore our work in AI, health sciences technology, and software engineering.
 {{< /lead >}}

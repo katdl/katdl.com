@@ -1,7 +1,7 @@
 ---
 title: "EsophaGuide - Assisted Diagnosis System"
 date: 2020-12-15
-summary: "Mobile-friendly diagnostic assistance application for swallowing disorders"
+summary: "AI-assisted diagnostic application for swallowing disorders"
 tags:
   - medical
   - software
@@ -23,7 +23,7 @@ We built and deployed a **mobile-friendly application** that allows physicians t
 - Previous surgery and treatment review
 - Diagnostic scoring and visualization
 
-The application implements custom scoring algorithms developed in close partnership with medical experts. Points are assigned to different conditions and test results, then mapped to x,y,z coordinates on a 3D graph where different regions indicate different likely diagnoses.
+The application implements AI-driven scoring algorithms developed in close partnership with medical experts. Points are assigned to different conditions and test results, then mapped to x,y,z coordinates on a 3D graph where different regions indicate different likely diagnoses.
 
 ![EsophaGuide Screenshot](/images/esophaguide.png)
 

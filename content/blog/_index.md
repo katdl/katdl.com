@@ -1,4 +1,4 @@
 ---
 title: "Blog"
-description: "Technical insights from KAT Data Labs on data science, medical technology, and software development"
+description: "Technical insights from KATDL on AI, health sciences technology, and software engineering"
 ---

@@ -2,7 +2,7 @@
 title: "Matt Konda"
 ---
 
-Matt is a principal at KAT Data Labs, bringing expertise in software development, security, and data science.
+Matt is the principal at KATDL, bringing expertise in AI, software engineering, security, and health sciences technology.
 
 - **Twitter:** [@mkonda](https://twitter.com/mkonda)
 - **Email:** mattkonda@gmail.com

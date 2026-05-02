@@ -1,7 +1,7 @@
 ---
 title: "Medical Image Analysis with OpenCV"
 date: 2020-10-26
-summary: "Computer vision analysis of medical device imagery for diagnostic assistance"
+summary: "AI-powered computer vision analysis of medical device imagery for diagnostic assistance"
 tags:
   - medical
   - computervision

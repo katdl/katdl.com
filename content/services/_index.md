@@ -1,45 +1,37 @@
 ---
 title: "Services"
-description: "KAT Data Labs Services - Data science strategy, proof of concept, custom development"
+description: "KATDL Services — AI consulting, health sciences software, and custom engineering"
 ---
 
 {{< lead >}}
-An overview of services we provide.
+We help health sciences organizations harness AI to solve complex problems and deliver better outcomes.
 {{< /lead >}}
 
-## Data Science Strategy
+## AI Strategy & Assessment
 
-A strategic analysis project to identify data and processes where data science could have an impact, and produce a list of ranked POC options.
+We work with your organization to identify where AI and machine learning can have the greatest impact. The result is a prioritized roadmap of opportunities with clear next steps — from quick wins to transformative initiatives.
 
-## Proof of Concept
+## AI Solution Development
 
-We work with your organization to build one of those proof of concepts. This is a hands on project with material deliverables.
+We build proof-of-concept and production AI systems — computer vision pipelines, predictive models, NLP workflows, and more. Every solution is built with clinical rigor and designed to integrate into your existing workflows.
 
-## Build and Train Team
+## Health Sciences Software
 
-Once we have a system running and doing what we want, we want to help you operationalize it with your own team.
+Custom software for clinical workflows, diagnostic assistance, medical device integration, and research tools. We understand the unique requirements of health sciences environments — from data privacy to regulatory considerations.
 
-## Long Term Support
+## Team Enablement
 
-As needed, customers can engage us to support the solutions we deliver.
+Once a solution is running, we help your team take ownership. We provide training, documentation, and hands-on mentoring so your organization can maintain and extend AI systems independently.
 
-![EsophaGuide Screenshot](/images/esophaguide.png)
+## Long Term Partnership
 
----
-
-## Custom Coding
-
-We are expert software developers and have run large scale software projects deployed in different cloud and on premise environments. We have evaluated security and architecture for dozens of well known cloud forward internet companies, so we can help select technology and build an awesome solution.
-
-We also have experience communicating about plans and priorities so that you always know about milestones, deadlines, costs and dates. We make sure to communicate what is going on so you can focus on the subject matter.
-
-![Code Screenshot](/images/flipcode.png)
+As needed, we provide ongoing support — model monitoring, performance tuning, and iterative improvement as your needs evolve.
 
 ---
 
-## Get the most out of your data
+## Let's build something that matters
 
-Work with a firm with a background in science, with strong communication and collaboration skills, and realize your fullest potential and impact!
+Work with a firm that combines AI expertise with a deep understanding of health sciences. We communicate clearly about plans, priorities, milestones, and costs — so you can focus on the science.
 
 {{< button href="https://calendly.com/mattkonda" target="_blank" >}}
 Schedule an Introduction

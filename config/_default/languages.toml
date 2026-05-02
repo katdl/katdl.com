@@ -2,7 +2,7 @@
   languageCode = "en-US"
   languageName = "English"
   weight = 1
-  title = "KAT Data Labs"
+  title = "KATDL"
 
   [en.params]
     displayName = "EN"
