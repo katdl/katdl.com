@@ -16,7 +16,7 @@ Let's discuss how technology can support your research and your organization.
 ## Prefer to schedule a call directly?
 
 {{< button href="https://calendar.app.google/nBLp58zaajwN83Xn8" target="_blank" >}}
-Schedule on Calendly
+Schedule a Discussion
 {{< /button >}}
 
 ---
