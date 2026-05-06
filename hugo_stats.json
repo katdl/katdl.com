@@ -26,7 +26,6 @@
       "nav",
       "p",
       "pre",
-      "script",
       "section",
       "span",
       "strong",
@@ -85,8 +84,6 @@
       "tags"
     ],
     "ids": [
-      "ai-solution-development",
-      "ai-strategy--assessment",
       "applying-opencv",
       "applying-the-kappa",
       "choosing-our-tools",
@@ -100,7 +97,6 @@
       "health-sciences-software",
       "key-features",
       "lets-build-something-that-matters",
-      "lets-explore-how-ai-can-accelerate-your-work",
       "lets-explore-how-we-can-support-your-research",
       "long-term-partnership",
       "message",
