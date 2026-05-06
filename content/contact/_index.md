@@ -4,7 +4,7 @@ description: "Get in touch with KATDL"
 ---
 
 {{< lead >}}
-Let's discuss how AI and software engineering can help your organization.
+Let's discuss how technology can support your research and your organization.
 {{< /lead >}}
 
 ## Send us a message
@@ -15,7 +15,7 @@ Let's discuss how AI and software engineering can help your organization.
 
 ## Prefer to schedule a call directly?
 
-{{< button href="https://calendar.app.google/Ff3B5fZpZMLAjqZTA" target="_blank" >}}
+{{< button href="https://calendar.app.google/nBLp58zaajwN83Xn8" target="_blank" >}}
 Schedule on Calendly
 {{< /button >}}
 

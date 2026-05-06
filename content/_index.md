@@ -1,15 +1,15 @@
 ---
 title: "KATDL"
-description: "AI consulting and software engineering for health sciences"
+description: "Technology and software engineering for health sciences research"
 ---
 
 {{< lead >}}
-We partner with researchers, clinicians, and health organizations to build intelligent systems that advance patient care.
+We partner with researchers, clinicians, and health organizations to build technology that advances science and patient care.
 {{< /lead >}}
 
-## AI Consulting
+## Research & Technology Consulting
 
-We help health sciences organizations identify high-impact opportunities for AI and machine learning — then we build the solutions. From computer vision for medical imaging to predictive models for clinical workflows, we bring deep technical expertise paired with a genuine understanding of science and medicine.
+We work with health sciences organizations to understand their research goals and build the right tools — from data pipelines and analytical platforms to applied AI and machine learning. We bring deep technical expertise paired with a genuine understanding of science and medicine.
 
 ## Software Engineering
 
@@ -17,14 +17,10 @@ We are experienced software engineers who have built and secured large-scale sys
 
 ![EsophaGuide Screenshot](/images/esophaguide.png)
 
-## Open Source
-
-We believe in building in the open. Our [projects](/portfolio/) contribute tools and frameworks that advance health sciences technology for everyone. We bring the same engineering standards to our open source work that we bring to our consulting engagements.
-
 ---
 
-## Ready to explore what AI can do for your organization?
+## Ready to explore how technology can support your research?
 
-{{< button href="https://calendar.app.google/Ff3B5fZpZMLAjqZTA" target="_blank" >}}
+{{< button href="https://calendar.app.google/nBLp58zaajwN83Xn8" target="_blank" >}}
 Schedule an Introduction
 {{< /button >}}
