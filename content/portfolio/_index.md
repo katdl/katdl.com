@@ -1,8 +1,8 @@
 ---
 title: "Projects"
-description: "Open source projects and case studies from KATDL"
+description: "Case studies and projects from KATDL"
 ---
 
 {{< lead >}}
-Explore our work in AI, health sciences technology, and software engineering.
+Explore our work in research technology, data analysis, and software engineering.
 {{< /lead >}}

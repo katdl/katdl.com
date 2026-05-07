@@ -1,15 +1,15 @@
 ---
 title: "KATDL"
-description: "Technology and software engineering for health sciences research"
+description: "Technology and software engineering for science and research"
 ---
 
 {{< lead >}}
-We partner with researchers, clinicians, and health organizations to build technology that advances science and patient care.
+We partner with researchers and organizations to build technology that advances understanding and outcomes.
 {{< /lead >}}
 
 ## Research & Technology Consulting
 
-We work with health sciences organizations to understand their research goals and build the right tools — from data pipelines and analytical platforms to applied AI and machine learning. We bring deep technical expertise paired with a genuine understanding of science and medicine.
+We work with research teams to understand their goals and build the right tools — from data pipelines and analytical platforms to applied AI and machine learning. We bring deep technical expertise paired with a genuine understanding of science and research.
 
 ## Software Engineering
 

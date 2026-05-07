@@ -1,10 +1,10 @@
 ---
 title: "Services"
-description: "KATDL Services — health sciences software, data analysis, and research technology"
+description: "KATDL Services — research technology, data analysis, and custom software engineering"
 ---
 
 {{< lead >}}
-We help health sciences organizations build the right technology to support research and deliver better outcomes.
+We help research teams and organizations build the right technology to support their work and deliver better outcomes.
 {{< /lead >}}
 
 ## Technology Strategy & Assessment
